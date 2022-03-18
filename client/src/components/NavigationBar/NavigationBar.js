@@ -41,13 +41,16 @@ function NavigationBar() {
           <Link to="/">Home</Link>
         </li>
         <li className="menu-list-item px-2">
-          <Link to="/">Profile</Link>
+          <Link to="/contact">Contact</Link>
         </li>
-        <li className="menu-list-item pr-2">
-          <Link to="/">Settings</Link>
+        <li className="menu-list-item pl-2">
+          <Link to="/aboutUs">About Us</Link>
+        </li>
+        <li className="menu-list-item pl-2">
+          <Link to="/myAccount">My Account</Link>
         </li>
       </ul>
-     
+
       <div className="mr-10 flex items-center">
         <p className="mr-8 font-semibold">Language</p>
         <MdCall />

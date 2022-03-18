@@ -1,4 +1,5 @@
 import React from "react";
+import payment from "../../img/payment-method.png";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaFacebookF } from "react-icons/fa";
 import { BsTwitter } from "react-icons/bs";
@@ -7,10 +8,10 @@ import { MdCall } from "react-icons/md";
 import { AiOutlineMail } from "react-icons/ai";
 const Footer = () => {
   return (
-    <div>
-      <div className="grid grid-cols-12 gap-3">
+    <div className="bg-gray-100 pt-10 mt-20">
+      <div className="grid grid-cols-12 gap-3 mx-10">
         <div className=" col-span-4 ">
-          <h1 className="text-3xl text-myColor uppercase mb-3">Demand</h1>
+          <h1 className="text-3xl text-myColor uppercase mb-3 font-satisfy font-semibold">Demand</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
             similique fugiat ab aperiam iusto est quae suscipit iste sunt eos.
@@ -74,6 +75,10 @@ const Footer = () => {
           </p>
         </div>
       </div>
+      <footer className="py-3 mt-10 bg-gray-800 text-white md:flex justify-between  px-10">
+        <p>© Demand - All Rights Reserved</p>
+        <img className="w-60" src={payment} alt="" />
+      </footer>
     </div>
   );
 };

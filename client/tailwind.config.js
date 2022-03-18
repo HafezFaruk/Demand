@@ -1,13 +1,7 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    screen: {
-      sm: "576px",
-      md: "768px",
-      lg: "992px",
-      xl: "1200px",
-    },
-
+    
     extend: {
       backgroundImage: {
         bgImage:

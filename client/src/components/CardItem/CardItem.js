@@ -21,7 +21,7 @@ const CardItem = () => {
                   href="/#"
                   className="text-white text-lg w-9 h-8 rounded-lg bg-myColor flex items-center justify-center hover:bg-gray-800 transition"
                 >
-                  <i class="fa-solid fa-eye"></i>
+                  <i className="fa-solid fa-eye"></i>
                 </a>
                 <a
                   href="/#"
@@ -85,7 +85,7 @@ const CardItem = () => {
                   href="/#"
                   className="text-white text-lg w-9 h-8 rounded-lg bg-myColor flex items-center justify-center hover:bg-gray-800 transition"
                 >
-                  <i class="fa-solid fa-eye"></i>
+                  <i className="fa-solid fa-eye"></i>
                 </a>
                 <a
                   href="/#"
@@ -148,7 +148,7 @@ const CardItem = () => {
                   href="/#"
                   className="text-white text-lg w-9 h-8 rounded-lg bg-myColor flex items-center justify-center hover:bg-gray-800 transition"
                 >
-                  <i class="fa-solid fa-eye"></i>
+                  <i className="fa-solid fa-eye"></i>
                 </a>
                 <a
                   href="/#"
@@ -211,7 +211,7 @@ const CardItem = () => {
                   href="/#"
                   className="text-white text-lg w-9 h-8 rounded-lg bg-myColor flex items-center justify-center hover:bg-gray-800 transition"
                 >
-                  <i class="fa-solid fa-eye"></i>
+                  <i className="fa-solid fa-eye"></i>
                 </a>
                 <a
                   href="/#"

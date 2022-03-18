@@ -9,7 +9,7 @@ const Header = () => {
         <h1 className="text-3xl text-myColor font-bold font-satisfy uppercase">Demand</h1>
       </div>
       <div className="flex items-center">
-        <div>
+        <div className="">
           <input
             className="lg:w-96  focus:outline-none border-2 border-myColor rounded-l-md py-2 px-4"
             type="search"
