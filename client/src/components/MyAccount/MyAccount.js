@@ -4,6 +4,7 @@ import ManageAddress from "./ManageAddress.js";
 import Profile from "./Profile.js";
 import ProfileInformation from "./ProfileInformation.js";
 import RecentOrders from "./RecentOrders.js";
+import Wishlist from "./Wishlist.js";
 
 const MyAccount = () => {
   return (
@@ -12,7 +13,8 @@ const MyAccount = () => {
       <RecentOrders />
       <ProfileInformation />
       <ManageAddress/>
-      <ChangePassword/>
+      <ChangePassword />
+      <Wishlist/>
     </div>
   );
 };

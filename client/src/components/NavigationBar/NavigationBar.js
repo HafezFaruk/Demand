@@ -49,6 +49,18 @@ function NavigationBar() {
         <li className="menu-list-item pl-2">
           <Link to="/myAccount">My Account</Link>
         </li>
+        <li className="menu-list-item pl-2">
+          <Link to="/timeline">Timeline</Link>
+        </li>
+        <li className="menu-list-item pl-2">
+          <Link to="/checkout">Checkout</Link>
+        </li>
+        <li className="menu-list-item pl-2">
+          <Link to="/payment">Payment</Link>
+        </li>
+        <li className="menu-list-item pl-2">
+          <Link to="/orderComplete">OrderComplete</Link>
+        </li>
       </ul>
 
       <div className="mr-10 flex items-center">

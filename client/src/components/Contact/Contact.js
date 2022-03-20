@@ -36,7 +36,7 @@ const Contact = () => {
               <div className="w-full mt-4">
                 <label htmlFor="">First Name *</label> <br />
                 <input
-                  className="w-full mt-1 focus:outline-none rounded-l-sm py-2 px-2 border-2 border-myColor"
+                  className="w-full mt-1 focus:outline-none rounded-l-sm py-2 px-2 border-2 border-gray-200"
                   type="name"
                   name=""
                   placeholder="First Name"
@@ -47,7 +47,7 @@ const Contact = () => {
                 <label htmlFor="">Last Name *</label>
                 <br />
                 <input
-                  className="w-full mt-1 focus:outline-none rounded-l-sm py-2 px-2 border-2 border-myColor"
+                  className="w-full mt-1 focus:outline-none rounded-l-sm py-2 px-2 border-2 border-gray-200"
                   type="name"
                   name=""
                   placeholder="Last Name"
@@ -59,7 +59,7 @@ const Contact = () => {
               <label htmlFor="">Email Address *</label>
               <br />
               <input
-                className="w-full mt-1 focus:outline-none rounded-l-sm py-2 px-2 border-2 border-myColor"
+                className="w-full mt-1 focus:outline-none rounded-l-sm py-2 px-2 border-2 border-gray-200"
                 type="email"
                 name=""
                 placeholder="Email"
@@ -70,7 +70,7 @@ const Contact = () => {
               <label htmlFor="">Subject *</label>
               <br />
               <input
-                className="w-full mt-1 focus:outline-none rounded-l-sm py-2 px-2 border-2 border-myColor"
+                className="w-full mt-1 focus:outline-none rounded-l-sm py-2 px-2 border-2 border-gray-200"
                 type="text"
                 name=""
                 placeholder="Subject"
@@ -81,7 +81,7 @@ const Contact = () => {
               <label htmlFor="">Your message *</label>
               <br />
               <textarea
-                className="w-full mt-1 focus:outline-none rounded-l-sm py-2 px-2 border-2 border-myColor"
+                className="w-full mt-1 focus:outline-none rounded-l-sm py-2 px-2 border-2 border-gray-200"
                 type="text"
                 rows="5"
                 name=""

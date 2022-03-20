@@ -33,7 +33,7 @@ const MyAccountSidebar = () => {
           </Link>
         </div>
         <div className="ml-7 mt-1">
-          <Link to="/profileInformation" className="mt-1">
+          <Link to="profileInformation" className="mt-1">
             Profile Information
           </Link>
           <h1 className="mt-1">Manage Address</h1>

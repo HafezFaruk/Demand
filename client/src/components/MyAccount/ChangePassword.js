@@ -30,7 +30,7 @@ const ChangePassword = () => {
           <div className="mt-4 relative">
             <label htmlFor="">Current Password</label> <br />
             <input
-              className="w-1/2 mt-1 focus:outline-none rounded-md py-2 px-2 border-2 border-myColor"
+              className="w-1/2 mt-1 focus:outline-none rounded-md py-2 px-2 border-2 border-gray-200"
               type={passwordShown1 ? "text" : "password"}
               name="password1"
               placeholder="Current Password"
@@ -46,7 +46,7 @@ const ChangePassword = () => {
           <div className="mt-4 relative">
             <label htmlFor="">New Password</label> <br />
             <input
-              className="w-1/2 mt-1 focus:outline-none rounded-md py-2 px-2 border-2 border-myColor"
+              className="w-1/2 mt-1 focus:outline-none rounded-md py-2 px-2 border-2 border-gray-200"
               type={passwordShown2 ? "text" : "password"}
               name="password2"
               placeholder="New Password"
@@ -62,7 +62,7 @@ const ChangePassword = () => {
           <div className="mt-4 relative">
             <label htmlFor="">Retype Password</label> <br />
             <input
-              className="w-1/2 mt-1 focus:outline-none rounded-md py-2 px-2 border-2 border-myColor"
+              className="w-1/2 mt-1 focus:outline-none rounded-md py-2 px-2 border-2 border-gray-200"
               type={passwordShown3 ? "text" : "password"}
               name="password3"
               placeholder="Retype Password"

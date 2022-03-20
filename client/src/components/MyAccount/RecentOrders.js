@@ -4,14 +4,14 @@ const RecentOrders = () => {
     return (
       <div className="mt-20">
         <h1>Recent Orders</h1>
-        <div className="border-separate border border-slate-500 p-5 mt-5">
+        <div className="border-separate border border-gray-200 p-5 mt-5">
           <div>
             <div className="flex justify-between items-center">
               <div>
                 <img className="w-20" src={tv} alt="" />
               </div>
               <div>
-                <button className="hover:bg-myColor hover:text-white  text-myColor border border-myColor font-semibold py-1 px-4 rounded-md">
+                <button className="hover:bg-myColor hover:text-white  text-myColor border border-gray-200 font-semibold py-1 px-4 rounded-md">
                   View Order
                 </button>
               </div>

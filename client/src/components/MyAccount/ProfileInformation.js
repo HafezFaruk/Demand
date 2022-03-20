@@ -9,7 +9,7 @@ const ProfileInformation = () => {
             <div className="w-full mt-4">
               <label htmlFor="">First Name *</label> <br />
               <input
-                className="w-full mt-1 focus:outline-none rounded-md py-2 px-2 border-2 border-myColor"
+                className="w-full mt-1 focus:outline-none rounded-md py-2 px-2 border-2 border-gray-200"
                 type="name"
                 name=""
                 placeholder="First Name"
@@ -20,7 +20,7 @@ const ProfileInformation = () => {
               <label htmlFor="">Last Name *</label>
               <br />
               <input
-                className="w-full mt-1 focus:outline-none rounded-md py-2 px-2 border-2 border-myColor"
+                className="w-full mt-1 focus:outline-none rounded-md py-2 px-2 border-2 border-gray-200"
                 type="name"
                 name=""
                 placeholder="Last Name"
@@ -32,7 +32,7 @@ const ProfileInformation = () => {
             <div className="w-full mt-4">
               <label htmlFor="">Birthday *</label> <br />
               <input
-                className="w-full mt-1 focus:outline-none rounded-md py-2 px-2 border-2 border-myColor"
+                className="w-full mt-1 focus:outline-none rounded-md py-2 px-2 border-2 border-gray-200"
                 type="date"
                 name=""
                 placeholder="Birthday"
@@ -43,7 +43,7 @@ const ProfileInformation = () => {
               <label htmlFor="">Gender *</label>
               <br />
               <select
-                className="w-full mt-1 focus:outline-none rounded-md py-2 px-2 border-2 border-myColor"
+                className="w-full mt-1 focus:outline-none rounded-md py-2 px-2 border-2 border-gray-200"
                 name="gender"
               >
                 <option value="none" selected>
@@ -59,7 +59,7 @@ const ProfileInformation = () => {
             <div className="w-full mt-4">
               <label htmlFor="">Email *</label> <br />
               <input
-                className="w-full mt-1 focus:outline-none rounded-md py-2 px-2 border-2 border-myColor"
+                className="w-full mt-1 focus:outline-none rounded-md py-2 px-2 border-2 border-gray-200"
                 type="email"
                 name=""
                 placeholder="Email"
@@ -70,7 +70,7 @@ const ProfileInformation = () => {
               <label htmlFor="">Phone Number *</label>
               <br />
               <input
-                className="w-full mt-1 focus:outline-none rounded-md py-2 px-2 border-2 border-myColor"
+                className="w-full mt-1 focus:outline-none rounded-md py-2 px-2 border-2 border-gray-200"
                 type="number"
                 name=""
                 placeholder="Phone Number
