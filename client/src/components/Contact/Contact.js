@@ -1,5 +1,5 @@
 import React from "react";
-import contactImg from "../../img/contact-banner.jpg";
+
 import {
   AiOutlineHome,
   AiOutlineRight,
@@ -12,24 +12,21 @@ import { MdCall } from "react-icons/md";
 const Contact = () => {
   return (
     <div className="pb-40">
-      <div className="relative">
-        <div>
-          <img src={contactImg} alt="" />
-          <div className="absolute inset-0 flex justify-center  items-center  text-white">
-            <div>
-              <h1 className="text-4xl uppercase">Contact</h1>
-              <div className="flex items-center justify-center mt-2">
-                <AiOutlineHome className="text-myColor" />
-                <AiOutlineRight className="mx-2" />
-                <h6>Contact us</h6>
-              </div>
+      <div className="bg-cover bg-no-repeat bg-center bg-bgImage2 py-40">
+        <div className="inset-0 flex justify-center  items-center  text-white">
+          <div>
+            <h1 className="text-4xl font-medium uppercase">Contact Us</h1>
+            <div className="flex items-center justify-center mt-2">
+              <AiOutlineHome className="text-primary" />
+              <AiOutlineRight className="mx-2" />
+              <h6>Contact us</h6>
             </div>
           </div>
         </div>
       </div>
       <div className="grid grid-cols-12 gap-6 mx-10 mt-20">
         <div className="col-span-8">
-          <h1 className="text-3xl text-semibold">LEAVE US A MESSAGE</h1>
+          <h1 className="text-3xl font-semibold">LEAVE US A MESSAGE</h1>
           <p>Use the form below to get in touch with the sales team</p>
           <form>
             <div className="md:flex">

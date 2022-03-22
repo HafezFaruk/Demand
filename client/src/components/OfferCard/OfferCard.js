@@ -3,30 +3,44 @@ import sofa1 from "../../img/sofa-1.png";
 import sofa2 from "../../img/sofa-2.png";
 const OfferCard = () => {
   return (
-    <div className=" grid grid-cols-2 gap-3">
-      <div className="flex items-center bg-pink-100 p-8 rounded-sm">
-        <div className="mr-14 ">
-          <h1 className="text-myColor text-2xl">30% offer</h1>
-          <h1 className="my-1 text-3xl">Free Shipping</h1>
-          <p>Attractive Natural Furniture</p>
-          <button className="btn-pink">Shop Now</button>
+    <>
+      <div className=" grid grid-cols-2 gap-3">
+        <div className="flex justify-between items-center h-60 group cursor-pointer bg-[#fbe3e4] p-8 rounded-md">
+          <div className="mr-14 ">
+            <h1 className="text-myColor text-2xl">30% offer</h1>
+            <h1 className="text-2xl font-medium">Free Shipping</h1>
+            <p>Attractive Natural Furniture</p>
+            <button className="text-white bg-myColor hover:bg-transparent hover:text-myColor border border-myColor px-4 py-2 rounded-md mt-5">
+              Shop Now
+            </button>
+          </div>
+          <div>
+            <img
+              className="h-48 w-56 group-hover:scale-110 transform duration-1000"
+              src={sofa1}
+              alt=""
+            />
+          </div>
         </div>
-        <div>
-          <img className="h-52" src={sofa1} alt="" />
+        <div className="flex justify-between group items-center h-60 cursor-pointer bg-[#edecec] p-8 rounded-md">
+          <div className="mr-10 ">
+            <h1 className="text-myColor text-2xl">30% offer</h1>
+            <h1 className="text-2xl font-medium">Free Shipping</h1>
+            <p>Attractive Natural Furniture</p>
+            <button className="text-white bg-myColor hover:bg-transparent hover:text-myColor border border-myColor px-4 py-2 rounded-md mt-5">
+              Shop Now
+            </button>
+          </div>
+          <div>
+            <img
+              className="h-48 w-60 group-hover:scale-110 transform duration-1000"
+              src={sofa2}
+              alt=""
+            />
+          </div>
         </div>
       </div>
-      <div className="flex items-center bg-gray-100 p-8 rounded-sm">
-        <div className="mr-14 ">
-          <h1 className="text-myColor text-2xl">30% offer</h1>
-          <h1 className="my-1 text-3xl">Free Shipping</h1>
-          <p>Attractive Natural Furniture</p>
-          <button className="btn-pink">Shop Now</button>
-        </div>
-        <div>
-          <img className="h-48" src={sofa2} alt="" />
-        </div>
-      </div>
-    </div>
+    </>
   );
 };
 

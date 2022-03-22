@@ -6,23 +6,30 @@ import Footer from "./components/Footer/Footer.js";
 import Header from "./components/Header/Header.js";
 import Home from "./components/Home/Home.js";
 import Checkout from "./components/MyAccount/Checkout.js";
-import ManageMyAccount from "./components/MyAccount/ManageMyAccount.js";
 import NotFound from "./components/MyAccount/NotFound.js";
 import OrderComplete from "./components/MyAccount/OrderComplete.js";
 import Payment from "./components/MyAccount/Payment.js";
 import Timeline from "./components/MyAccount/Timeline.js";
-import NavigationBar from "./components/NavigationBar/NavigationBar.js";
-import MyAccountSidebar from "./components/MyAccount/MyAccountSidebar.js";
+import ManageMyAccount from "./components/MyAccount/ManageMyAccount.js";
+import Navbar from "./components/NavigationBar/Navbar.js";
 import ProfileInformation from "./components/MyAccount/ProfileInformation.js";
 import ChangePassword from "./components/MyAccount/ChangePassword.js";
-import Asrafull from "./components/MyAccount/Asrafull.js";
+import Wishlist from "./components/MyAccount/Wishlist.js";
+import ManageAddress from "./components/MyAccount/ManageAddress.js";
+import MyOrderHistory from "./components/MyAccount/MyOrderHistory.js";
+import MyReturns from "./components/MyAccount/MyReturns.js";
+import OrderCancel from "./components/MyAccount/OrderCancel.js";
+import MyReviews from "./components/MyAccount/MyReviews.js";
+import PaymentsMethods from "./components/MyAccount/PaymentsMethods.js";
+import MyVaucher from "./components/MyAccount/MyVaucher.js";
+import Faq from "./components/MyAccount/Faq.js";
 
 function App() {
   return (
     <div>
       <BrowserRouter>
         <Header />
-        <NavigationBar />
+        <Navbar />
         <Routes>
           <Route index element={<Home />} />
           <Route path="/contact" index element={<Contact />} />
@@ -31,16 +38,24 @@ function App() {
           <Route path="/timeline" element={<Timeline />} />
           <Route path="/checkout" element={<Checkout />} />
           <Route path="/orderComplete" element={<OrderComplete />} />
+          <Route path="/myAccount" element={<ManageMyAccount />} />
+          <Route path="/faq" element={<Faq />} />
           <Route
             path="myAccount/profileInformation"
-            element={<Asrafull />}
+            element={<ProfileInformation />}
           />
-          <Route path="myAccount" element={<MyAccountSidebar />}>
-            <Route path="manageMyAccount" element={<ManageMyAccount />} />
-            <Route path="profileInformation" element={<ProfileInformation />} />
-            <Route path="changePassword" element={<ChangePassword />} />
-          </Route>
-
+          <Route path="myAccount/manageAddress" element={<ManageAddress />} />
+          <Route path="myAccount/changePassword" element={<ChangePassword />} />
+          <Route path="myAccount/myOrderHistory" element={<MyOrderHistory />} />
+          <Route path="myAccount/wishlist" element={<Wishlist />} />
+          <Route path="myAccount/returnOrder" element={<MyReturns />} />
+          <Route path="myAccount/orderCancel" element={<OrderCancel />} />
+          <Route path="myAccount/myReviews" element={<MyReviews />} />
+          <Route path="myAccount/myVaucher" element={<MyVaucher />} />
+          <Route
+            path="myAccount/paymentsMethods"
+            element={<PaymentsMethods />}
+          />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />

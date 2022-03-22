@@ -1,7 +1,6 @@
 import React from "react";
 import { AiOutlineHome, AiOutlineRight } from "react-icons/ai";
 
-
 const Checkout = () => {
   return (
     <div className="mx-10">
@@ -16,7 +15,7 @@ const Checkout = () => {
       <div className="mt-5">
         <div className="grid grid-cols-12 gap-6 mt-20">
           <div className="col-span-8">
-            <h1 className="text-xl text-semibold bg-gray-300 py-2 pl-3">
+            <h1 className="text-xl font-semibold bg-gray-300 py-2 pl-3">
               Billing Details
             </h1>
             <form>
@@ -124,7 +123,7 @@ const Checkout = () => {
           </div>
           <div className="col-span-4">
             <div>
-              <h1 className="text-xl text-semibold bg-gray-300 py-2 pl-3">
+              <h1 className="text-xl font-semibold bg-gray-300 py-2 pl-3">
                 Your Order
               </h1>
               <div className="border-2 border-gray-200 p-4 mt-5">

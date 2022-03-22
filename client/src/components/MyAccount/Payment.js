@@ -23,7 +23,7 @@ const Payment = () => {
       <div className="mt-5">
         <div className="grid grid-cols-12 gap-6 mt-20">
           <div className="col-span-8">
-            <h1 className="text-xl text-semibold bg-gray-300 py-2 pl-3">
+            <h1 className="text-xl font-semibold bg-gray-300 py-2 pl-3">
               Select Payment Method
             </h1>
             <div className="flex mt-5">
@@ -56,7 +56,7 @@ const Payment = () => {
           </div>
           <div className="col-span-4">
             <div>
-              <h1 className="text-xl text-semibold bg-gray-300 py-2 pl-3">
+              <h1 className="text-xl font-semibold bg-gray-300 py-2 pl-3">
                 Your Order
               </h1>
               <div className="border-2 border-gray-200 p-4 mt-5">

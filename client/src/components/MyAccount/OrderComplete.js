@@ -1,13 +1,12 @@
 import React from 'react';
-import { AiOutlineCheck } from "react-icons/ai";
-import { AiOutlineHome, AiOutlineRight } from "react-icons/ai";
+
+import { AiOutlineHome, AiOutlineRight, AiOutlineCheck } from "react-icons/ai";
 const OrderComplete = () => {
     return (
       <div className="text-center mx-10">
         <div className="flex items-center mt-10">
           <AiOutlineHome className="text-myColor" />
           <AiOutlineRight className="mx-2" />
-         
           <h1>Order complete</h1>
         </div>
         <div className="flex justify-center  items-center mt-20">
