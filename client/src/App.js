@@ -23,6 +23,13 @@ import MyReviews from "./components/MyAccount/MyReviews.js";
 import PaymentsMethods from "./components/MyAccount/PaymentsMethods.js";
 import MyVaucher from "./components/MyAccount/MyVaucher.js";
 import Faq from "./components/MyAccount/Faq.js";
+import Login from "./components/MyAccount/Login.js";
+import Register from "./components/MyAccount/Register.js";
+import ShopListView from "./components/Shop/ShopListView.js";
+import ShopGridView from "./components/Shop/ShopGridView.js";
+import ShoppingCart from "./components/Shop/ShoppingCart.js";
+import ProductDetails from "./components/Shop/ProductDetails.js";
+import ForgotPassword from "./components/MyAccount/ForgotPassword.js";
 
 function App() {
   return (
@@ -40,6 +47,13 @@ function App() {
           <Route path="/orderComplete" element={<OrderComplete />} />
           <Route path="/myAccount" element={<ManageMyAccount />} />
           <Route path="/faq" element={<Faq />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/shopListView" element={<ShopListView />} />
+          <Route path="/shopGridView" element={<ShopGridView />} />
+          <Route path="/shoppingCart" element={<ShoppingCart />} />
+          <Route path="/productDetails" element={<ProductDetails />} />
+          <Route path="/forgotPassword" element={<ForgotPassword />} />
           <Route
             path="myAccount/profileInformation"
             element={<ProfileInformation />}

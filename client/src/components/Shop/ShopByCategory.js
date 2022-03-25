@@ -1,10 +1,4 @@
 import React from 'react';
-// import img1 from '../../img/category-1.jpg';
-// import img2 from '../../img/category-2.jpg';
-// import img3 from '../../img/category-3.jpg';
-// import img4 from '../../img/category-4.jpg';
-// import img5 from '../../img/category-5.jpg';
-// import img6 from '../../img/category-6.jpg';
 
 const ShopByCategory = () => {
     return (

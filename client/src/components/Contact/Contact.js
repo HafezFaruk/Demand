@@ -82,7 +82,7 @@ const Contact = () => {
                 type="text"
                 rows="5"
                 name=""
-                placeholder="Last Name"
+                placeholder="Your message"
                 id=""
               />
             </div>

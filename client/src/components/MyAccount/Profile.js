@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Profile = () => {
     return (
@@ -7,9 +8,12 @@ const Profile = () => {
           <div>
             <div className="flex justify-between items-center mb-4">
               <h1 className="font-semibold text-1xl">Personal Profile </h1>
-              <h1 className="text-myColor hover:underline hover:cursor-pointer">
+              <Link
+                to="/myAccount/profileInformation"
+                className="text-myColor hover:underline hover:cursor-pointer"
+              >
                 Edit
-              </h1>
+              </Link>
             </div>
             <p>Russell Ahmed</p>
             <p>example@mail.com</p>
@@ -18,9 +22,12 @@ const Profile = () => {
           <div className="lg:mx-14">
             <div className="flex justify-between items-center mb-4">
               <h1 className="font-semibold text-1xl">Shipping Address</h1>
-              <h1 className="text-myColor hover:underline hover:cursor-pointer">
+              <Link
+                to="/myAccount/manageAddress"
+                className="text-myColor hover:underline hover:cursor-pointer"
+              >
                 Edit
-              </h1>
+              </Link>
             </div>
             <p>Russell Ahmed</p>
             <p>example@mail.com</p>
@@ -29,9 +36,12 @@ const Profile = () => {
           <div>
             <div className="flex justify-between items-center mb-4">
               <h1 className="font-semibold text-1xl">Billing Address</h1>
-              <h1 className="text-myColor hover:underline hover:cursor-pointer">
+              <Link
+                to="/myAccount/manageAddress"
+                className="text-myColor hover:underline hover:cursor-pointer"
+              >
                 Edit
-              </h1>
+              </Link>
             </div>
             <p>Russell Ahmed</p>
             <p>example@mail.com</p>

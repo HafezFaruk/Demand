@@ -92,29 +92,7 @@ const ManageAddress = () => {
                     />
                   </div>
                 </div>
-                <div className="md:flex">
-                  <div className="w-full mt-4">
-                    <label htmlFor="">Email *</label> <br />
-                    <input
-                      className="w-full mt-1 focus:outline-none rounded-md py-2 px-2 border-2 border-gray-200"
-                      type="email"
-                      name=""
-                      placeholder="Email"
-                      id=""
-                    />
-                  </div>
-                  <div className="w-full md:ml-4 mt-4">
-                    <label htmlFor="">Phone Number *</label>
-                    <br />
-                    <input
-                      className="w-full mt-1 focus:outline-none rounded-md py-2 px-2 border-2 border-gray-200"
-                      type="number"
-                      name=""
-                      placeholder="Phone Number"
-                      id=""
-                    />
-                  </div>
-                </div>
+                
                 <button className="bg-myColor hover:bg-myColor uppercase text-white font-semibold py-3 px-10 mt-8 border-none rounded-md">
                   Send Message
                 </button>

@@ -4,10 +4,15 @@ module.exports = {
     extend: {
       width: {
         width: "430px",
+        "w100": "100%",
       },
-     backgroundImage:{
-        "bgImage" : "url('http://rafcart.rslahmed.com/assets/images/banner-1.jpg')",
-        "bgImage2" : "url('https://i.ibb.co/8gvBJ95/contact-banner.jpg')"
+      height: {
+        height: "32rem",
+      },
+      backgroundImage: {
+        bgImage:
+          "url('http://rafcart.rslahmed.com/assets/images/banner-1.jpg')",
+        bgImage2: "url('https://i.ibb.co/8gvBJ95/contact-banner.jpg')",
       },
       fontFamily: {
         poppins: "Poppins, sans-serif",
@@ -19,7 +24,10 @@ module.exports = {
         twitter: "#1DA1F2",
         facebook: "#3b5998",
         instagram: "#DF2B76",
+        face: "#3b5999",
+        google: "#d85040",
       },
+
       borderWidth: {
         2: "1px",
       },

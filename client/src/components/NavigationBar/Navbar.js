@@ -93,20 +93,6 @@ const Navbar = () => {
           <div className="flex items-center space-x-6 capitalize">
             <Link to="/" className="text-gray-200 flex ">
               Home
-              <svg
-                className="ml-2 mt-1 w-4 h-4"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M19 9l-7 7-7-7"
-                ></path>
-              </svg>
             </Link>
             <div className="cursor-pointer py-4 relative group">
               <Link to="/gridview" className="text-gray-200 flex ">
@@ -130,7 +116,7 @@ const Navbar = () => {
                 <ul className="py-1">
                   <li>
                     <Link
-                      to="/gridview"
+                      to="/shopGridView"
                       className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 hover:text-red-400 transition"
                     >
                       Grid view
@@ -138,7 +124,7 @@ const Navbar = () => {
                   </li>
                   <li>
                     <Link
-                      to="/listview"
+                      to="/shopListView"
                       className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 hover:text-red-400 transition "
                     >
                       List view
@@ -146,7 +132,7 @@ const Navbar = () => {
                   </li>
                   <li>
                     <Link
-                      to="/shoppingcart"
+                      to="/shoppingCart"
                       className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 hover:text-red-400 transition"
                     >
                       Shopping cart
@@ -225,14 +211,14 @@ const Navbar = () => {
                       </td>
                     </tr>
                     <tr className="">
-                      <Link to="/faq">
-                        <td className="pl-7 py-2 pb-4 text-sm hover:bg-gray-100 hover:text-red-400 transition">
-                          FAQ
-                        </td>
-                      </Link>
-                      <td className="pl-10 py-2 pb-4 text-sm hover:bg-gray-100 hover:text-red-400 transition">
-                        Forgot Password
+                      <td className="pl-7 py-2 pb-4 text-sm hover:bg-gray-100 hover:text-red-400 transition">
+                        <Link to="/faq">FAQ</Link>
                       </td>
+
+                      <td className="pl-10 py-2 pb-4 text-sm hover:bg-gray-100 hover:text-red-400 transition">
+                        <Link to="/forgotPassword">Forgot Password</Link>
+                      </td>
+
                       <td className="pl-10 pb-4 py-2 text-sm hover:bg-gray-100 hover:text-red-400 transition">
                         <Link to="/orderComplete">Order Complete</Link>
                       </td>
@@ -241,13 +227,13 @@ const Navbar = () => {
                 </table>
               </div>
             </div>
+            <Link className="text-gray-200" to="/contact">
+              Contact Us
+            </Link>
           </div>
-          <Link
-            to="/register"
-            className="text-gray-200 hover:text-red-400 transition mr-10"
-          >
-            Login/Register
-          </Link>
+          <p className="text-white hover:text-myColor transition mr-10">
+            Call: +88 01713 800 900
+          </p>
         </div>
       </div>
     </nav>
