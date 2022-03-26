@@ -5,7 +5,7 @@ import logo2 from "../../images/slider-2.png";
 import logo3 from "../../images/slider-3.png";
 import logo4 from "../../images/slider-4.png";
 import logo5 from "../../images/slider-5.png";
-import Item from './Items.js'
+import Item from './Items.js';
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
   { width: 360, itemsToShow: 4 },

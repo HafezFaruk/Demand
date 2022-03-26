@@ -231,7 +231,7 @@ const Navbar = () => {
               Contact Us
             </Link>
           </div>
-          <p className="text-white hover:text-myColor transition mr-10">
+          <p className="text-white hover:text-myColor transition ">
             Call: +88 01713 800 900
           </p>
         </div>
