@@ -5,6 +5,7 @@ import {
   AiOutlineRight,
 } from "react-icons/ai";
 import Sidebar from "./Sidebar.js";
+import { Link } from "react-router-dom";
 
 const MyReturns = () => {
   return (
@@ -43,9 +44,11 @@ const MyReturns = () => {
                 <p className="text-green-400">Successful</p>
               </div>
               <div>
-                <button className="bg-red-400 text-white hover:bg-white  hover:text-myColor border border-myColor font-semibold py-2 px-4 mx-4 rounded-md flex items-center">
-                  View Order
-                </button>
+                <Link to="/myAccount/returnOrderDetails">
+                  <button className="bg-red-400 text-white hover:bg-white  hover:text-myColor border border-myColor font-semibold py-2 px-4 mx-4 rounded-md flex items-center">
+                    View Order
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

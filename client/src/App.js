@@ -30,6 +30,9 @@ import ShopGridView from "./components/Shop/ShopGridView.js";
 import ShoppingCart from "./components/Shop/ShoppingCart.js";
 import ProductDetails from "./components/Shop/ProductDetails.js";
 import ForgotPassword from "./components/MyAccount/ForgotPassword.js";
+import ReturnOrderDetails from "./components/MyAccount/ReturnOrderDetails.js";
+import OrderHistoryDetails from "./components/MyAccount/OrderHistoryDetails.js";
+import ReviewsDetails from "./components/MyAccount/ReviewsDetails.js";
 
 function App() {
   return (
@@ -66,6 +69,15 @@ function App() {
           <Route path="myAccount/orderCancel" element={<OrderCancel />} />
           <Route path="myAccount/myReviews" element={<MyReviews />} />
           <Route path="myAccount/myVaucher" element={<MyVaucher />} />
+          <Route path="myAccount/reviewsDetails" element={<ReviewsDetails />} />
+          <Route
+            path="myAccount/orderDetails"
+            element={<OrderHistoryDetails />}
+          />
+          <Route
+            path="myAccount/returnOrderDetails"
+            element={<ReturnOrderDetails />}
+          />
           <Route
             path="myAccount/paymentsMethods"
             element={<PaymentsMethods />}

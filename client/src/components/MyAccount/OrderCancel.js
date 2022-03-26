@@ -2,10 +2,11 @@ import React from 'react';
 import tv from "../../img/tv.png";
 import Sidebar from './Sidebar.js';
 import { AiOutlineHome, AiOutlineRight } from "react-icons/ai";
+import { Link } from 'react-router-dom';
 
 const OrderCancel = () => {
     return (
-      <div className='mx-10'>
+      <div className="mx-10">
         <div className="flex items-center my-5">
           <AiOutlineHome className="text-myColor" />
           <AiOutlineRight className="mx-2" />
@@ -25,9 +26,11 @@ const OrderCancel = () => {
                     <img className="w-20" src={tv} alt="" />
                   </div>
                   <div>
-                    <button className="hover:bg-myColor hover:text-white  text-myColor border border-myColor font-semibold py-1 transform duration-500 px-5 rounded-sm">
-                      View Order
-                    </button>
+                    <Link to="/myAccount/orderDetails">
+                      <button className="hover:bg-myColor hover:text-white  text-myColor border border-myColor font-semibold py-1 transform duration-500 px-5 rounded-sm">
+                        View Order
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>

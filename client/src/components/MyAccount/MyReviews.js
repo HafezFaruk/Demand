@@ -2,6 +2,7 @@ import React from 'react';
 import Sidebar from './Sidebar.js';
 import { AiOutlineHome, AiOutlineRight } from "react-icons/ai";
 import keyboard from "../../img/keyboard.png";
+import { Link } from 'react-router-dom';
 
 const MyReviews = () => {
     return (
@@ -40,9 +41,11 @@ const MyReviews = () => {
                   <p className="text-green-400">16 Dec 2020</p>
                 </div>
                 <div>
-                  <button className="bg-red-400 text-white hover:bg-white  hover:text-myColor border border-myColor font-semibold py-2 px-4 mx-4 rounded-md flex items-center">
-                    Write Review
-                  </button>
+                  <Link to="/myAccount/reviewsDetails">
+                    <button className="bg-red-400 text-white hover:bg-white  hover:text-myColor border border-myColor font-semibold py-2 px-4 mx-4 rounded-md flex items-center">
+                      Write Review
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
