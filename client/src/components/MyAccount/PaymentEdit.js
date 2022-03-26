@@ -21,7 +21,7 @@ function paymentEdit() {
           <form>
             <div className="md">
               <div className="w-full mt-4 ">
-                <label htmlFor=""> Card Number *</label>
+                <label htmlFor=""> Card number *</label>
                 <br />
                 <input
                   className="w-full mt-1 focus:outline-none rounded-md py-2 px-2 border-2 border-gray-200"
@@ -30,7 +30,7 @@ function paymentEdit() {
                 />
               </div>
               <div className="w-full mt-4">
-                <label htmlFor="">Name On Cart *</label> <br />
+                <label htmlFor="">Name On cart *</label> <br />
                 <input
                   className="w-full mt-1 focus:outline-none rounded-md py-2 px-2 border-2 border-gray-200"
                   type="name"
