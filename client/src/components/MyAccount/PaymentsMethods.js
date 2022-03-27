@@ -1,6 +1,7 @@
 import React from "react";
-import express from "../../img/a-express.png";
 import { AiOutlineHome, AiOutlineRight } from "react-icons/ai";
+import { Link } from "react-router-dom";
+import express from "../../img/a-express.png";
 import Sidebar from "./Sidebar.js";
 
 const PaymentsMethods = () => {
@@ -42,9 +43,12 @@ const PaymentsMethods = () => {
                 <p>Yes</p>
               </div>
               <div className="flex items-center justify-center">
+
+                <Link to="/myAccount/PaymentEdit">
                 <button className="text-myColor bg-white hover:bg-myColor w-20 text-center  hover:text-white border border-myColor font-semibold py-2  mx-1 rounded-md">
                   Edit
-                </button>
+                </button></Link>
+          
 
                 <button className="text-myColor bg-white hover:bg-myColor w-20 text-center  hover:text-white border border-myColor font-semibold py-2  mx-1 rounded-md">
                   Delete

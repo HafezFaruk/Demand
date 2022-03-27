@@ -1,14 +1,15 @@
 import React from "react";
 import { AiOutlineHome, AiOutlineRight } from "react-icons/ai";
+import { Link } from "react-router-dom";
 import headphone from "../../images/headphone-3.png";
 import Sidebar from "./Sidebar.js";
 const OrderHistoryDetails = () => {
   return (
     <div className="mx-10 mb-20">
       <div className="flex items-center mt-4">
-        <AiOutlineHome className="text-primary" />
-        <AiOutlineRight className="mx-2 text-primary" />
-        <h6 className="text-primary">My Account</h6>
+        <AiOutlineHome className="text-myColor" />
+        <AiOutlineRight className="mx-2 text-myColor" />
+        <h6 className="text-myColor">My Account</h6>
         <AiOutlineRight className="mx-2" />
         <h6>Order Details</h6>
       </div>
@@ -23,7 +24,7 @@ const OrderHistoryDetails = () => {
               <div className="flex justify-between w-4/6 ">
                 <div className="">
                   <p className="font-semibold">Sold By</p>
-                  <p className="text-primary">EMBOSSED</p>
+                  <p className="text-myColor">EMBOSSED</p>
                 </div>
                 <div className="">
                   <p className="font-semibold">Order Number</p>
@@ -34,9 +35,11 @@ const OrderHistoryDetails = () => {
                   <p className="text-sm">01 March 2022</p>
                 </div>
               </div>
-              <button className="border border-primary text-primary hover:bg-primary hover:text-white rounded-md px-4">
-                Write A Review
-              </button>
+              <Link to="/myAccount/orderDetails">
+                <button className="border border-myColor text-myColor hover:bg-myColor hover:text-white rounded-md py-2 px-4">
+                  Write A Review
+                </button>
+              </Link>
             </div>
             <div className="">
               {/* time line start */}
@@ -93,7 +96,7 @@ const OrderHistoryDetails = () => {
                   <div className="font-semibold">$50</div>
                   <div className="font-semibold">Qty: 1</div>
                   <div className="">
-                    <h3 className="text-primary font-semibold">Return</h3>
+                    <h3 className="text-myColor font-semibold">Return</h3>
                     <p className="text-gray-500">Unit 24-sep-2022</p>
                   </div>
                 </div>

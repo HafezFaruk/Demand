@@ -5,31 +5,32 @@ import Contact from "./components/Contact/Contact.js";
 import Footer from "./components/Footer/Footer.js";
 import Header from "./components/Header/Header.js";
 import Home from "./components/Home/Home.js";
-import Checkout from "./components/MyAccount/Checkout.js";
-import NotFound from "./components/MyAccount/NotFound.js";
-import OrderComplete from "./components/MyAccount/OrderComplete.js";
-import Payment from "./components/MyAccount/Payment.js";
-import Timeline from "./components/MyAccount/Timeline.js";
-import ManageMyAccount from "./components/MyAccount/ManageMyAccount.js";
-import Navbar from "./components/NavigationBar/Navbar.js";
-import ProfileInformation from "./components/MyAccount/ProfileInformation.js";
 import ChangePassword from "./components/MyAccount/ChangePassword.js";
-import Wishlist from "./components/MyAccount/Wishlist.js";
+import Checkout from "./components/MyAccount/Checkout.js";
+import Faq from "./components/MyAccount/Faq.js";
+import ForgotPassword from "./components/MyAccount/ForgotPassword.js";
+import Login from "./components/MyAccount/Login.js";
 import ManageAddress from "./components/MyAccount/ManageAddress.js";
+import ManageMyAccount from "./components/MyAccount/ManageMyAccount.js";
 import MyOrderHistory from "./components/MyAccount/MyOrderHistory.js";
 import MyReturns from "./components/MyAccount/MyReturns.js";
-import OrderCancel from "./components/MyAccount/OrderCancel.js";
 import MyReviews from "./components/MyAccount/MyReviews.js";
-import PaymentsMethods from "./components/MyAccount/PaymentsMethods.js";
 import MyVaucher from "./components/MyAccount/MyVaucher.js";
-import Faq from "./components/MyAccount/Faq.js";
-import Login from "./components/MyAccount/Login.js";
+import NotFound from "./components/MyAccount/NotFound.js";
+import OrderCancel from "./components/MyAccount/OrderCancel.js";
+import OrderComplete from "./components/MyAccount/OrderComplete.js";
+import Payment from "./components/MyAccount/Payment.js";
+import PaymentEdit from "./components/MyAccount/PaymentEdit";
+import PaymentsMethods from "./components/MyAccount/PaymentsMethods.js";
+import ProfileInformation from "./components/MyAccount/ProfileInformation.js";
 import Register from "./components/MyAccount/Register.js";
-import ShopListView from "./components/Shop/ShopListView.js";
-import ShopGridView from "./components/Shop/ShopGridView.js";
-import ShoppingCart from "./components/Shop/ShoppingCart.js";
+import Timeline from "./components/MyAccount/Timeline.js";
+import Wishlist from "./components/MyAccount/Wishlist.js";
+import Navbar from "./components/NavigationBar/Navbar.js";
 import ProductDetails from "./components/Shop/ProductDetails.js";
-import ForgotPassword from "./components/MyAccount/ForgotPassword.js";
+import ShopGridView from "./components/Shop/ShopGridView.js";
+import ShopListView from "./components/Shop/ShopListView.js";
+import ShoppingCart from "./components/Shop/ShoppingCart.js";
 import ReturnOrderDetails from "./components/MyAccount/ReturnOrderDetails.js";
 import OrderHistoryDetails from "./components/MyAccount/OrderHistoryDetails.js";
 import ReviewsDetails from "./components/MyAccount/ReviewsDetails.js";
@@ -78,6 +79,7 @@ function App() {
             path="myAccount/returnOrderDetails"
             element={<ReturnOrderDetails />}
           />
+          <Route path="myAccount/paymentEdit" element={<PaymentEdit />} />
           <Route
             path="myAccount/paymentsMethods"
             element={<PaymentsMethods />}

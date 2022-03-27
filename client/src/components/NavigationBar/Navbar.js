@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav className="bg-gray-800">
-      <div className="container flex">
+      <div className="mx-10 flex">
         {/* all category */}
-        <div className="ml-10 px-6 py-4 bg-myColor flex items-center cursor-pointer relative group">
+        <div className="px-6 py-4 bg-myColor flex items-center cursor-pointer relative group">
           <span className="text-white">
             <i className="fas fa-bars"></i>
           </span>
@@ -231,7 +231,7 @@ const Navbar = () => {
               Contact Us
             </Link>
           </div>
-          <p className="text-white hover:text-myColor transition mr-10">
+          <p className="text-white hover:text-myColor transition ">
             Call: +88 01713 800 900
           </p>
         </div>

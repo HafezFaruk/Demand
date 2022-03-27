@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import tv from '../../img/tv.png'
 const RecentOrders = () => {
     return (
@@ -11,9 +12,11 @@ const RecentOrders = () => {
                 <img className="w-20" src={tv} alt="" />
               </div>
               <div>
-                <button className="hover:bg-myColor hover:text-white  text-myColor border border-myColor font-semibold py-1 transform duration-500 px-5 rounded-sm">
-                  View Order
-                </button>
+                <Link to="/myAccount/orderDetails">
+                  <button className="hover:bg-myColor hover:text-white  text-myColor border border-myColor font-semibold py-1 transform duration-500 px-5 rounded-sm">
+                    View Order
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

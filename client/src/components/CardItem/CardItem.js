@@ -33,15 +33,15 @@ const CardItem = () => {
             </div>
             <div className="pt-3 pb-3 px-4">
               <a href="/#">
-                <h4 className="uppercase font-medium text-xl mb-2 text-gray-800 hover:text-primary transition">
+                <h4 className="uppercase font-medium text-xl mb-2 text-gray-800 hover:text-myColor transition">
                   Guyer chair
                 </h4>
               </a>
-              <p className="capitalize font-medium text-sm mb-2 text-gray-800 hover:text-primary transition">
+              <p className="capitalize font-medium text-sm mb-2 text-gray-800 hover:text-myColor transition">
                 Queen Headboard
               </p>
               <div className="flex items-baseline mb-1 space-x-2">
-                <p className="text-xl text-primary font-semibold">$45.00</p>
+                <p className="text-xl text-myColor font-semibold">$45.00</p>
                 <p className="text-sm text-gray-400 line-through">$55.00</p>
               </div>
               <div className="flex items-center">
@@ -67,7 +67,7 @@ const CardItem = () => {
             </div>
             <a
               href="/#"
-              className="block w-full py-1 text-center text-white hover:text-myColor bg-myColor border border-myColor rounded-b hover:bg-transparent hover:text-primary transition"
+              className="block w-full py-1 text-center text-white hover:text-myColor bg-myColor border border-myColor rounded-b hover:bg-transparent hover:text-myColor transition"
             >
               Add to card
             </a>
@@ -97,15 +97,15 @@ const CardItem = () => {
             </div>
             <div className="pt-3 pb-3 px-4">
               <a href="/#">
-                <h4 className="uppercase font-medium text-xl mb-2 text-gray-800 hover:text-primary transition">
+                <h4 className="uppercase font-medium text-xl mb-2 text-gray-800 hover:text-myColor transition">
                   madeline sofa
                 </h4>
               </a>
-              <p className="capitalize font-medium text-sm mb-2 text-gray-800 hover:text-primary transition">
+              <p className="capitalize font-medium text-sm mb-2 text-gray-800 hover:text-myColor transition">
                 Fabric Sofa bed
               </p>
               <div className="flex items-baseline mb-1 space-x-2">
-                <p className="text-xl text-primary font-semibold">$120.00</p>
+                <p className="text-xl text-myColor font-semibold">$120.00</p>
                 <p className="text-sm text-gray-400 line-through">$100.00</p>
               </div>
               <div className="flex items-center">
@@ -131,7 +131,7 @@ const CardItem = () => {
             </div>
             <a
               href="/#"
-              className="block w-full py-1 text-center text-white  bg-myColor border border-myColor rounded-b hover:bg-transparent hover:text-primary transition"
+              className="block w-full py-1 text-center text-white  bg-myColor border border-myColor rounded-b hover:bg-transparent hover:text-myColor transition"
             >
               Add to card
             </a>
@@ -160,15 +160,15 @@ const CardItem = () => {
             </div>
             <div className="pt-3 pb-3 px-4">
               <a href="/#">
-                <h4 className="uppercase font-medium text-xl mb-2 text-gray-800 hover:text-primary transition">
+                <h4 className="uppercase font-medium text-xl mb-2 text-gray-800 hover:text-myColor transition">
                   black archie
                 </h4>
               </a>
-              <p className="capitalize font-medium text-sm mb-2 text-gray-800 hover:text-primary transition">
+              <p className="capitalize font-medium text-sm mb-2 text-gray-800 hover:text-myColor transition">
                 black bedside
               </p>
               <div className="flex items-baseline mb-1 space-x-2">
-                <p className="text-xl text-primary font-semibold">$400.00</p>
+                <p className="text-xl text-myColor font-semibold">$400.00</p>
                 <p className="text-sm text-gray-400 line-through">$380.00</p>
               </div>
               <div className="flex items-center">
@@ -194,7 +194,7 @@ const CardItem = () => {
             </div>
             <a
               href="/#"
-              className="block w-full py-1 text-center text-white bg-myColor border border-myColor rounded-b hover:bg-transparent hover:text-primary transition"
+              className="block w-full py-1 text-center text-white bg-myColor border border-myColor rounded-b hover:bg-transparent hover:text-myColor transition"
             >
               Add to card
             </a>
@@ -223,15 +223,15 @@ const CardItem = () => {
             </div>
             <div className="pt-3 pb-3 px-4">
               <a href="/#">
-                <h4 className="uppercase font-medium text-xl mb-2 text-gray-800 hover:text-primary transition">
+                <h4 className="uppercase font-medium text-xl mb-2 text-gray-800 hover:text-myColor transition">
                   bianco chair
                 </h4>
               </a>
-              <p className="capitalize font-medium text-sm mb-2 text-gray-800 hover:text-primary transition">
+              <p className="capitalize font-medium text-sm mb-2 text-gray-800 hover:text-myColor transition">
                 fabric accent chair
               </p>
               <div className="flex items-baseline mb-1 space-x-2">
-                <p className="text-xl text-primary font-semibold">$60.00</p>
+                <p className="text-xl text-myColor font-semibold">$60.00</p>
                 <p className="text-sm text-gray-400 line-through">$55.00</p>
               </div>
               <div className="flex items-center">
@@ -257,7 +257,7 @@ const CardItem = () => {
             </div>
             <a
               href="/#"
-              className="block w-full py-1 text-center text-white bg-myColor border border-myColor rounded-b hover:bg-transparent hover:text-primary transition"
+              className="block w-full py-1 text-center text-white bg-myColor border border-myColor rounded-b hover:bg-transparent hover:text-myColor transition"
             >
               Add to card
             </a>

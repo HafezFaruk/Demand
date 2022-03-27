@@ -17,7 +17,7 @@ const Contact = () => {
           <div>
             <h1 className="text-4xl font-medium uppercase">Contact Us</h1>
             <div className="flex items-center justify-center mt-2">
-              <AiOutlineHome className="text-primary" />
+              <AiOutlineHome className="text-myColor" />
               <AiOutlineRight className="mx-2" />
               <h6>Contact us</h6>
             </div>
