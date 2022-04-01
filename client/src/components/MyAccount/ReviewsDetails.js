@@ -7,7 +7,7 @@ import Sidebar from "./Sidebar.js";
 
 const ReviewsDetails = () => {
   return (
-    <div className="mx-10 mb-20">
+    <div className="container mb-20">
       <div className="flex items-center mt-4">
         <AiOutlineHome className="text-myColor" />
         <AiOutlineRight className="mx-2 text-myColor" />
@@ -87,12 +87,12 @@ const ReviewsDetails = () => {
               </div>
             </div>
             <div className="w-28 border-dashed border-2 border-myColor cursor-pointer relative mt-2">
-            <div className="absolute mt-3">
-                <BsFillImageFill className="text-3xl ml-10 mb-3"/>
-              <p className="ml-4 text-xs">Upload Photo</p>
+              <div className="absolute mt-3">
+                <BsFillImageFill className="text-3xl ml-10 mb-3" />
+                <p className="ml-4 text-xs">Upload Photo</p>
               </div>
-              <input type="file" className="h-20 w-28 opacity-0 cursor-pointer"/>
-              
+              <input type="file" className="h-20 w-28 opacity-0 cursor-pointer" />
+
             </div>
             <button className="border border-myColor py-2.5 px-5 font-semibold bg-myColor text-white rounded-md hover:bg-transparent hover:text-myColor my-5">Submit</button>
           </div>

@@ -37,7 +37,7 @@ const ShopGridView = () => {
   //   });
   // });
   return (
-    <div className="mx-10">
+    <div className="container">
       <div className="flex items-center mt-4">
         <AiOutlineHome className="text-myColor" />
         <AiOutlineRight className="text-gray-500 mx-2" />

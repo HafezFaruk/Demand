@@ -41,7 +41,7 @@ const Header = () => {
             4
           </span>
         </div>
-        <div className="mx-10 relative">
+        <div className="container relative">
           <span className="flex justify-center text-3xl">
             <AiOutlineShoppingCart />
           </span>

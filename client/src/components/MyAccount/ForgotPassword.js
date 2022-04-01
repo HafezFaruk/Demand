@@ -2,7 +2,7 @@ import React from "react";
 import { AiOutlineHome, AiOutlineRight } from "react-icons/ai";
 const ForgotPassword = () => {
   return (
-    <div className="mx-10">
+    <div className="container">
       <div className="flex items-center mt-4">
         <AiOutlineHome className="text-myColor" />
         <AiOutlineRight className="text-gray-400 mx-2" />

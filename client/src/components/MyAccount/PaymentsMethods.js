@@ -6,7 +6,7 @@ import Sidebar from "./Sidebar.js";
 
 const PaymentsMethods = () => {
   return (
-    <div className="mx-10">
+    <div className="container">
       <div className="flex items-center my-5">
         <AiOutlineHome className="text-myColor" />
         <AiOutlineRight className="mx-2" />
@@ -45,10 +45,10 @@ const PaymentsMethods = () => {
               <div className="flex items-center justify-center">
 
                 <Link to="/myAccount/PaymentEdit">
-                <button className="text-myColor bg-white hover:bg-myColor w-20 text-center  hover:text-white border border-myColor font-semibold py-2  mx-1 rounded-md">
-                  Edit
-                </button></Link>
-          
+                  <button className="text-myColor bg-white hover:bg-myColor w-20 text-center  hover:text-white border border-myColor font-semibold py-2  mx-1 rounded-md">
+                    Edit
+                  </button></Link>
+
 
                 <button className="text-myColor bg-white hover:bg-myColor w-20 text-center  hover:text-white border border-myColor font-semibold py-2  mx-1 rounded-md">
                   Delete

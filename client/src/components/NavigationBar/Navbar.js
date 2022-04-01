@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav className="bg-gray-800">
-      <div className="mx-10 flex">
+      <div className="container flex">
         {/* all category */}
         <div className="px-6 py-4 bg-myColor flex items-center cursor-pointer relative group">
           <span className="text-white">

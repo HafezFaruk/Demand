@@ -9,7 +9,7 @@ import { CgLogOff } from "react-icons/cg";
 import avatar from "../../img/avatar-2.png";
 const MyAccountSidebar = () => {
   return (
-    <div className="mx-10">
+    <div className="container">
       <div className="flex items-center my-10">
         <img className="mr-4 w-12 rounded-full" src={avatar} alt="" />
         <div>

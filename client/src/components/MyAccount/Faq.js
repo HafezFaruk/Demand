@@ -3,7 +3,7 @@ import { AiOutlineHome, AiOutlineRight } from "react-icons/ai";
 import Accordion from "./Accordion.js";
 const Faq = () => {
   return (
-    <div className="mx-10 mb-20">
+    <div className="container mb-20">
       <div className="flex items-center mt-4">
         <AiOutlineHome className="text-myColor" />
         <AiOutlineRight className="text-gray-400 mx-2" />

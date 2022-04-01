@@ -3,7 +3,7 @@ import cash from "../../img/cash-on.png";
 
 const Payment3 = () => {
   return (
-    <div className="mt-10 mx-10">
+    <div className="mt-10 container">
       <div className="flex justify-between items-center mb-5">
         <h1 className="text-lg font-bold">Cash On delivery</h1>
         <img src={cash} alt="" />

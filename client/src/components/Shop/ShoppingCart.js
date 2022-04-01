@@ -4,7 +4,7 @@ import headphone3 from "../../images/headphone-4.png";
 import iphone from "../../images/iphone.png";
 const ShoppingCart = () => {
   return (
-    <div className="mx-10 pb-20">
+    <div className="container pb-20">
       <div className="flex items-center mt-4 mb-6">
         <AiOutlineHome className="text-myColor" />
         <AiOutlineRight className="text-myColor mx-2" />

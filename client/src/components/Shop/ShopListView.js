@@ -7,7 +7,7 @@ import ProductItems2 from "../Shop/ProductItems2.js";
 const ShopListView = () => {
   const [product, setProduct] = React.useState("second");
   return (
-    <div className="mx-10">
+    <div className="container">
       <div className="flex items-center mt-4">
         <AiOutlineHome className="text-myColor" />
         <AiOutlineRight className="text-gray-500 mx-2" />

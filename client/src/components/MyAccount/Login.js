@@ -3,7 +3,7 @@ import { AiOutlineHome, AiOutlineRight } from "react-icons/ai";
 import { Link } from "react-router-dom";
 const Login = () => {
   return (
-    <div className="mx-10 mb-32">
+    <div className="container mb-32">
       <div className="mt-4 flex items-center">
         <AiOutlineHome className="text-myColor" />
         <AiOutlineRight className="text-gray-400 mx-2" />

@@ -11,7 +11,7 @@ import Payment3 from "./Payment3.js";
 const Payment = () => {
   const [payment, setPayment] = useState("payment1");
   return (
-    <div className="mx-10">
+    <div className="container">
       <div className="flex items-center mt-10">
         <AiOutlineHome className="text-myColor" />
         <AiOutlineRight className="mx-2" />

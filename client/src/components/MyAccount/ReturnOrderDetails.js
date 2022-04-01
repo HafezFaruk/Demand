@@ -4,7 +4,7 @@ import headphone from "../../images/headphone-3.png";
 import Sidebar from "./Sidebar.js";
 const ReturnOrderDetails = () => {
   return (
-    <div className="mx-10 mb-20">
+    <div className="container mb-20">
       <div className="flex items-center mt-4">
         <AiOutlineHome className="text-myColor" />
         <AiOutlineRight className="mx-2 text-myColor" />
@@ -80,7 +80,7 @@ const ReturnOrderDetails = () => {
               <p className="font-semibold py-3">Slect Shipment Option</p>
               <div className="">
                 <form>
-                
+
                   <input
                     type="radio"
                     id="html"
@@ -88,12 +88,12 @@ const ReturnOrderDetails = () => {
                     name="fav_language"
                     value="HTML"
                   />
-                
+
                   <label htmlFor="html">
                     <span className="text-gray-600 text-md">Courier Pick Up</span>
                   </label>
                   <br />
-                
+
                   <input
                     type="radio"
                     id="css"
@@ -101,9 +101,9 @@ const ReturnOrderDetails = () => {
                     name="fav_language"
                     value="CSS"
                   />
-                
+
                   <label htmlFor="css">
-                  
+
                     <span className="text-gray-600 text-md">Drop Off</span>
                   </label>
                   <br />
@@ -122,8 +122,8 @@ const ReturnOrderDetails = () => {
               </div>
               <div className="py-2.5">
                 <label htmlFor="">
-                <input type="checkbox" className="focus:ring-0 focus:text-myColor cursor-pointer border border-myColor" name="" id="" />
-                <span> I have Read and accepted the <span className="text-myColor">Return Policy</span> of EMBOSSED</span>
+                  <input type="checkbox" className="focus:ring-0 focus:text-myColor cursor-pointer border border-myColor" name="" id="" />
+                  <span> I have Read and accepted the <span className="text-myColor">Return Policy</span> of EMBOSSED</span>
                 </label>
               </div>
               <button className="bg-myColor text-white px-5 py-2.5 mt-3 mb-2 hover:bg-transparent hover:text-myColor rounded-md font-semibold uppercase border border-myColor">Submit</button>

@@ -9,7 +9,7 @@ import { AiOutlineMail } from "react-icons/ai";
 const Footer = () => {
   return (
     <div className="bg-gray-100 pt-10 mt-20">
-      <div className="grid grid-cols-12 gap-3 mx-10">
+      <div className="grid grid-cols-12 gap-3 container">
         <div className=" col-span-4 ">
           <h1 className="text-3xl text-myColor uppercase mb-3 font-satisfy font-semibold">Demand</h1>
           <p>

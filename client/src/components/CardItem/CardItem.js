@@ -9,15 +9,15 @@ const CardItem = () => {
     });
   }, []);
   return (
-    <div className="mx-10">
+    <div className="container">
       <div className="container pb-16">
         <h2 className="text-3xl font-bold text-gray-800 uppercase mb-6">
           top new arrival
         </h2>
-       
+
         <div className="grid grid-cols-4 gap-6">
           {product.map((items) => (
-                
+
             <div key={items.id} className="">
               <div className="bg-white shadow rounded overflow-hidden group">
                 <div className="relative">
@@ -91,10 +91,10 @@ const CardItem = () => {
               </div>
             </div>
           ))}
-       
+
         </div>
-       
-         
+
+
       </div>
     </div>
   );

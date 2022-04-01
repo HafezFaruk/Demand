@@ -5,7 +5,7 @@ import Sidebar from "./Sidebar.js";
 
 const MyVaucher = () => {
   return (
-    <div className="mx-10">
+    <div className="container">
       <div className="flex items-center my-5">
         <AiOutlineHome className="text-myColor" />
         <AiOutlineRight className="mx-2" />

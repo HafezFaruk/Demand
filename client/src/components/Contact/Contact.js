@@ -24,7 +24,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-12 gap-6 mx-10 mt-20">
+      <div className="grid grid-cols-12 gap-6 container mt-20">
         <div className="col-span-8">
           <h1 className="text-3xl font-semibold">LEAVE US A MESSAGE</h1>
           <p>Use the form below to get in touch with the sales team</p>

@@ -8,20 +8,20 @@ import imgOff from '../../img/offer-card.jpg';
 
 
 const Home = () => {
-    return (
-      <div>
-        <div className="mx-10">
-          <Banner />
-          <MiniCard />
-          <OfferCard />
-          <ShopByCategory />
-          <CardItem />
-          <img src={imgOff} alt="" />
-          <CardItem />
-        </div>
-        
+  return (
+    <div>
+      <div className="container">
+        <Banner />
+        <MiniCard />
+        <OfferCard />
+        <ShopByCategory />
+        <CardItem />
+        <img src={imgOff} alt="" />
+        <CardItem />
       </div>
-    );
+
+    </div>
+  );
 };
 
 export default Home;

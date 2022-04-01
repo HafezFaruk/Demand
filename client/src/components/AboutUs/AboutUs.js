@@ -31,7 +31,7 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-12 gap-3 mx-10 my-14">
+      <div className="grid grid-cols-12 gap-3 container my-14">
         <div className="col-span-7">
           <h1 className="text-lg text-myColor uppercase font-semibold mb-3">
             OUR HISTORY
@@ -73,7 +73,7 @@ const AboutUs = () => {
           <img src={about1} alt="" />
         </div>
       </div>
-      <div className="mx-10 grid grid-cols-12 gap-3">
+      <div className="container grid grid-cols-12 gap-3">
         <div className="col-span-5">
           <img src={about2} alt="" />
         </div>
@@ -117,7 +117,7 @@ const AboutUs = () => {
         </div>
       </div>
 
-      <div className="mt-10 mx-10">
+      <div className="mt-10 container">
         <h1 className="text-3xl uppercase text-center font-semibold my-8">
           MEET WITH OUR TEAM
         </h1>

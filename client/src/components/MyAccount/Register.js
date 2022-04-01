@@ -3,10 +3,10 @@ import { AiOutlineHome, AiOutlineRight } from "react-icons/ai";
 import { Link } from "react-router-dom";
 const Register = () => {
   return (
-    <div className="mx-10 mb-32">
+    <div className="container mb-32">
       <div className="mt-4 flex items-center">
-          <AiOutlineHome className="text-myColor"/>
-          <AiOutlineRight className="text-gray-400 mx-2"/>
+        <AiOutlineHome className="text-myColor" />
+        <AiOutlineRight className="text-gray-400 mx-2" />
         <p className="text-gray-600">Register</p>
       </div>
       <div className="flex justify-center">
@@ -106,9 +106,9 @@ const Register = () => {
           </div>
           <div className="mt-5">
             <div className="flex items-center justify-center space-x-3">
-              <hr className="w-32 border border-gray-300"/>
+              <hr className="w-32 border border-gray-300" />
               <div className="uppercase font-semibold">Or singup in with</div>
-              <hr className="w-32 border border-gray-300"/>
+              <hr className="w-32 border border-gray-300" />
             </div>
           </div>
           <div className="flex justify-between mt-5">

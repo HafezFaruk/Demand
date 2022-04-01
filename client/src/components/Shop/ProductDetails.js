@@ -25,7 +25,7 @@ const ProductDetails = () => {
   const [Image, setImage] = React.useState("first");
   const [tab, setTab] = React.useState("info");
   return (
-    <div className="mx-10">
+    <div className="container">
       <div className="flex items-center mt-4 mb-6">
         <AiOutlineHome className="text-myColor" />
         <AiOutlineRight className="text-myColor mx-2" />

@@ -5,7 +5,7 @@ import headphone from "../../images/headphone-3.png";
 import Sidebar from "./Sidebar.js";
 const OrderHistoryDetails = () => {
   return (
-    <div className="mx-10 mb-20">
+    <div className="container mb-20">
       <div className="flex items-center mt-4">
         <AiOutlineHome className="text-myColor" />
         <AiOutlineRight className="mx-2 text-myColor" />
