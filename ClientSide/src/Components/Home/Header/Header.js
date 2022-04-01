@@ -66,7 +66,7 @@ const Header = () => {
             </div>
             <div className="text-xs leading-3">Account</div>
             {/* dropdown start */}
-            <div className="absolute opacity-0 group-hover:opacity-100 invisible group-hover:visible z-10 w-60 text-base list-none bg-white rounded divide-y divide-gray-100 shadow">
+            <div className="absolute opacity-0 group-hover:opacity-100 invisible group-hover:visible right-1 z-10 w-60 text-base list-none bg-white rounded divide-y divide-gray-100 shadow">
                 <h3 className="py-5 text-gray-600 font-medium">Welcome to EMBOSSED Shop</h3>
                 <div className="flex justify-around">
                     <Link to="/register">
