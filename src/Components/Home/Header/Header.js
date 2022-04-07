@@ -1,7 +1,7 @@
 import React from "react";
 import {
-    AiFillGift,
-    AiOutlineHeart, AiOutlineShoppingCart
+  AiFillGift,
+  AiOutlineHeart, AiOutlineShoppingCart
 } from "react-icons/ai";
 import { CgLogOff } from "react-icons/cg";
 import { FaRegAddressCard } from "react-icons/fa";
@@ -23,10 +23,10 @@ const Header = () => {
           </span>
           <input
             type="text"
-            className="w-full border border-primary border-r-0 pl-12 py-2 pr-3 rounded-l-md focus:outline-none focus:ring focus:ring-red-500"
+            className="w-full border border-primary border-r-0 pl-12 py-2 pr-3 rounded-l-md focus:outline-none"
             placeholder="search"
           />
-          <button className="bg-primary border border-primary text-white px-8 rounded-r-md hover:bg-transparent hover:text-primary focus:outline-none focus:ring focus:ring-red-500 transition">
+          <button className="bg-primary border border-primary text-white px-8 rounded-r-md hover:bg-transparent hover:text-primary cursor-pointer transition">
             Search
           </button>
         </div>
