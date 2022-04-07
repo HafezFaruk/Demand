@@ -1,52 +1,50 @@
 import axios from "axios";
-import React, { useEffect } from 'react';
-import { AiFillEye } from 'react-icons/ai';
-import { BsSuitHeartFill } from 'react-icons/bs';
-import { Link } from 'react-router-dom';
+import React, { useEffect } from "react";
+import { AiFillEye } from "react-icons/ai";
+import { BsSuitHeartFill } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const RecomendedProduct = () => {
+  const [product, setProduct] = React.useState([]);
+  useEffect(() => {
+    axios.get("./data.json").then((data) => {
+      const productItems = data.data.slice(11, 19);
+      setProduct(productItems);
+    });
+  }, []);
 
-    const [product, setProduct] = React.useState([]);
-    useEffect(() => {
-      axios.get("./data.json").then((data) => {
-        const productItems = data.data.slice(11, 19);
-        setProduct(productItems);
-      });
-    }, []);
-    
-    const handleButton = (id) => {
-      console.log("click me");
-    }
+  const handleButton = (id) => {
+    console.log("click me");
+  };
 
-    return (
-        <div className="container mb-20">
-            <h2 className="text-3xl font-medium pb-6">Recomended for You</h2>
-            <div className="">
-            <div className="grid grid-cols-4 gap-6">
-
-            {product.map((items) => (
+  return (
+    <div className="container mb-20">
+      <h2 className="text-3xl font-medium pb-6">Recomended for You</h2>
+      <div className="">
+        <div className="grid grid-cols-4 gap-6">
+          {product.map((items) => (
             <div key={items._id} className="">
               <div className="bg-white shadow rounded overflow-hidden group">
                 <div className="relative">
                   <div className="flex justify-center h-52 bg-gray-100">
-                  <img
-                    src={items.image}
-                    className="object-contain pt-5 h-48 w-48"
-                    alt=""
-                  />
+                    <img
+                      src={items.image}
+                      className="object-contain pt-5 h-48 w-48"
+                      alt=""
+                    />
                   </div>
                   <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center gap-2 opacity-0 group-hover:opacity-100 transition">
                     <Link
                       to="/"
                       className="text-white text-lg w-9 h-8 rounded-lg bg-primary flex items-center justify-center hover:bg-gray-800 transition"
                     >
-                      <AiFillEye/>
-                             
+                      <AiFillEye />
                     </Link>
-                    <Link to="/"
+                    <Link
+                      to="/"
                       className="text-white text-lg w-9 h-8 rounded-lg bg-primary flex items-center justify-center hover:bg-gray-800 transition"
                     >
-                      <BsSuitHeartFill/>
+                      <BsSuitHeartFill />
                     </Link>
                   </div>
                 </div>
@@ -91,7 +89,7 @@ const RecomendedProduct = () => {
                   </div>
                 </div>
                 <p
-                  onClick={()=> handleButton(items._id)}
+                  onClick={() => handleButton(items._id)}
                   className="block w-full py-1 cursor-pointer text-center text-white hover:text-primary bg-primary border border-primary rounded-b hover:bg-transparent transition"
                 >
                   Add to card
@@ -99,11 +97,10 @@ const RecomendedProduct = () => {
               </div>
             </div>
           ))}
-
         </div>
-            </div>
-        </div>
-    );
+      </div>
+    </div>
+  );
 };
 
 export default RecomendedProduct;
