@@ -3,12 +3,10 @@ import React, { useEffect } from 'react';
 import { AiFillEye } from 'react-icons/ai';
 import { BsSuitHeartFill } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
-import { A11y, Navigation, Pagination, Scrollbar } from 'swiper';
+import { A11y, Navigation } from 'swiper';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 
@@ -32,7 +30,7 @@ const Product = () => {
            <h2 className="text-3xl font-bold text-gray-800 uppercase mb-6">top new arrival</h2>
 
            <Swiper
-      modules={[Navigation, Pagination, Scrollbar, A11y]}
+      modules={[Navigation, A11y]}
       spaceBetween={50}
       slidesPerView={4}
       navigation
