@@ -1,4 +1,4 @@
-### EMBOSSED:  Live Site Link (https://embossed-e-commerce.web.app/)  (Ongoing project)
+### EMBOSSED:  Live Site Link https://embossed-e-commerce.web.app/  (Ongoing project)
 
 ## Technologies:
 
