@@ -3,10 +3,10 @@ import React, { useEffect } from 'react';
 import { AiFillEye } from 'react-icons/ai';
 import { BsSuitHeartFill } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
-import  { A11y, Navigation,  } from "swiper";
+import { A11y, Navigation } from "swiper";
+import "swiper/css";
+import "swiper/css/navigation";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/swiper-bundle.min.css";
-import "swiper/swiper.min.css";
 
 
 const Product = () => {
