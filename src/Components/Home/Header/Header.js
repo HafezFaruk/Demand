@@ -135,54 +135,7 @@ const Header = () => {
                 
               </ul>
             </div>
-            {/* dropdown end */}
-            {/* <ul>
-                    <li>
-                        <Link
-                      to="/myAccount"
-                      className="flex items-center mt-2 hover:text-myColor cursor-pointer ml-3"
-                    >
-                      <FaRegAddressCard className="mr-2" />
-                      <p>My Account</p>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="/myAccount/myOrderHistory"
-                      className="flex items-center mt-2 hover:text-myColor cursor-pointer ml-3"
-                    >
-                      <AiFillGift className="mr-2" />
-                      <p>My Order</p>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="/myAccount/wishlist"
-                      className="flex items-center mt-2 hover:text-myColor cursor-pointer ml-3"
-                    >
-                      <AiOutlineHeart className="mr-2" />
-                      <p>My Wishlist</p>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="/shoppingCart"
-                      className="flex items-center mt-2 hover:text-myColor cursor-pointer ml-3"
-                    >
-                      <AiOutlineShoppingCart className="mr-2" />
-                      <p>My Cart</p>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="/login"
-                      className="flex items-center mt-2 hover:text-myColor cursor-pointer ml-3"
-                    >
-                      <CgLogOff className="mr-2" />
-                      <p>Log Out</p>
-                    </Link>
-                    </li>
-                    </ul> */}
+   
           </Link>
         </div>
       </div>
